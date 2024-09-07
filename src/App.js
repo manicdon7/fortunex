@@ -232,13 +232,15 @@ const App = () => {
   };
 
   const shareFortune = () => {
-    const dmText = encodeURIComponent(fortune);
+    const message = `I got this message from Fortune Guide - X: ${fortune}`;
+    const dmText = encodeURIComponent(message);
     const dmUrl = `https://twitter.com/messages/compose?text=${dmText}`;
     window.open(dmUrl, "_blank");
   };
+  
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-6 text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-6 text-white scroll-container">
       <h1 className="lg:text-4xl text-2xl font-extrabold text-center lg:mb-32 mb-20 animate-fadeIn font-fortune" id="fortunetitle">✨Fortune Guide - X✨</h1>
       
       <input

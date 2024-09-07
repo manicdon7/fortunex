@@ -19,10 +19,15 @@ code {
     monospace;
 }
 
+.scroll-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; /* Limit height to viewport height */
+}
+
 #fortunetitle{
   font-family: "Playwrite CU", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
 }
 
