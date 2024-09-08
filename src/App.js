@@ -242,7 +242,6 @@ const App = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 p-6 text-white scroll-container">
       <h1 className="lg:text-4xl text-2xl font-extrabold text-center lg:mb-32 mb-20 animate-fadeIn font-fortune" id="fortunetitle">✨Fortune Guide - X✨</h1>
-      
       <input
         id="fortune"
         type="text"
