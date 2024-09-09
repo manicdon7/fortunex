@@ -312,7 +312,6 @@ const App = () => {
           </div>
         </>
       )}
-
       <div className="mt-10 text-center">
         <p className="text-white text-lg" id="fortune">
           Enjoyed your fortune? Invite a friend to discover theirs too!
