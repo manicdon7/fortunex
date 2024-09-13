@@ -262,7 +262,6 @@ const App = () => {
         <option value="Humor">Humor</option>
         <option value="Mystery">Mystery</option>
       </select>
-
       <button
         id="fortune"
         onClick={generateFortune}
